@@ -22,18 +22,38 @@ Error: #DC2626
 
 ---
 
-## Typography
+# Typography
 
-Heading Font:
-Playfair Display
+## Fonts
 
-Body Font:
-Inter
+Heading:
+- Playfair Display
 
-Arabic Font:
-Cairo
+Body:
+- Inter
 
----
+Arabic:
+- Cairo
+
+## Font Scale
+
+Hero: 64px
+
+H1: 48px
+
+H2: 36px
+
+H3: 30px
+
+H4: 24px
+
+Body Large: 20px
+
+Body: 16px
+
+Small: 14px
+
+Caption: 12px
 
 ## Border Radius
 
