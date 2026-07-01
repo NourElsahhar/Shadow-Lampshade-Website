@@ -33,14 +33,10 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
-      className={`${inter.variable} ${playfair.variable} ${cairo.variable} h-full antialiased`}
-    >
-      <body
-        className={`${inter.variable} ${playfair.variable} ${cairo.variable}`}
-      >
-        {children}
-      </body>
-    </html>
+  lang="en"
+  className={`${inter.variable} ${playfair.variable} ${cairo.variable} h-full antialiased`}
+>
+  <body>{children}</body>
+</html>
   );
 }

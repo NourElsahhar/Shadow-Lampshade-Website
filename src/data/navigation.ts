@@ -1,8 +1,4 @@
 export const navigation = [
-    {
-    label: "Contact", // this is a button
-    href: "#contact",
-  },
   {
     label: "Home",
     href: "#home",
@@ -23,3 +19,11 @@ export const navigation = [
     href: "#why-us",
   },
 ];
+
+export const cta = {
+
+label:"Contact",
+
+href:"#contact"
+
+}
