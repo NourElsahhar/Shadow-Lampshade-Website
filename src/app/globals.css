@@ -1,26 +1,55 @@
 @import "tailwindcss";
 
+/* ==============
+   Design Tokens
+   ==============*/
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Brand Colors */
+  --color-brand: #12344d;
+  --color-cta: #d98a2b;
+  --color-accent: #c89b3c;
+
+  /* Neutrals */
+  --color-bg: #f8f7f4;
+  --color-surface: #ffffff;
+  --color-text: #102a43;
+  --color-muted: #6b7280;
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+
+  /* Layout */
+  --container-width: 1280px;
+
+  /* Animation */
+  --transition-fast: 200ms ease;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+}
+
+/* =====================
+   Typography Utilities
+   =====================*/
+
+.font-heading {
+  font-family: var(--font-heading);
+}
+
+.font-body {
+  font-family: var(--font-body);
+}
+
+.font-accent {
+  font-family: var(--font-accent);
 }
